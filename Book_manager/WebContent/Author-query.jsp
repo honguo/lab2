@@ -35,5 +35,16 @@
 <a href="Book-list">返回图书列表</a>
 </center>
 
+<form action="Book-search" method="get">
+<table border="0" align="center">
+<tr>
+<td>请输入要查询的作者名字：</td>
+<td><input type="text" name="Name"></td>
+<td><input type="submit" value="提交"></td>
+</tr>
+
+</table>
+</form>
+
 </body>
 </html>
